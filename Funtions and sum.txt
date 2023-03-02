@@ -10,14 +10,14 @@ int main()
 {
     int x,y,z;
     
-    printf("Enter the value of 'x': ");
+    printf("\tEnter the value of 'x': ");
     scanf("%d",&x);
-    printf("Enter the value of 'y': ");
+    printf("\tEnter the value of 'y': ");
     scanf("%d",&y);
     
     z = sum(x,y);
     
-    printf("%d + %d = %d",x,y,z);
+    printf("\t%d + %d = %d",x,y,z);
     
     return 0;
 }
